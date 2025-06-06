@@ -39,7 +39,7 @@ const userSchema = new mongoose.Schema({
             default:''  // default'' means if nothing is given by user, then automcatically add this. Here we have kept it blank by default,
   },
   bio:{ type: String,
-        default:'tech entusiast' //optional, for brief description
+        default:'tech entusiast & AI learner' //optional, for brief description
   },
   profilePic:{ type: String, 
             default:''
